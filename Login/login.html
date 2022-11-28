@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Login.Form
+        </title>
+        <style>
+           @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+           @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+           body{
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: linear-gradient(rgb(41, 6, 212),yellow);
+                text-align: center;
+                cursor: pointer;
+           }
+           .login
+           {
+               background: rgba(255,255,255,0.06);
+               box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37) ;
+               padding-left: 25px;
+               padding-right: 45px;
+               height:29rem;
+               border-radius: 70px;
+               font-family: roboto;
+            }
+            input{
+              
+                margin: 5% auto;
+                margin-bottom: 23px;
+                border: none;
+                background: transparent;
+                outline: none;
+                width: 78%;
+                border-bottom:1px solid black;
+             }
+            .logo
+           {
+              font-size: 40px;
+              font-family: secular+one;
+            }
+           .Forget
+           {
+            padding-top: 29px;
+            color: rgb(23, 27, 87);
+           }
+           .name
+           {
+               color: wheat;
+               text-align: initial;
+           }
+           .button
+           {
+            background-color: rgb(229, 229, 211);
+             border-radius: 10px;
+             border: none;
+             padding: 10px 13px 10px 13px;
+             cursor: pointer;
+           }
+           .button:hover{
+              background-color: rgb(38, 181, 42);
+              color: white;
+           }
+        </style>
+    </head>
+    <body>
+        <div class="login">
+            <div>
+                <p class="logo">
+                    LOGIN
+                </p>
+            </div>
+            <div>
+               <p class="name">
+                   Username 
+                   <input type="text" >
+               </p>
+               <p class="name">
+                   Password
+                   <input type="password" >
+               </p>
+               <button class="button">
+                   Login
+               </button>
+               <p class="Forget">
+                   Forget Password..
+               </p>
+            </div>
+        </div>
+    </body>
+</html>

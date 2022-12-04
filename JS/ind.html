@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            To-Do list
+        </title>
+        <style>
+            body{
+                background: linear-gradient(to right,rgb(56, 101, 236),rgb(244, 228, 228));
+            }
+            form{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            h2{
+                margin-left:620px;
+            }
+            button{
+                margin-left: 15px;
+                padding: 6px 6px 6px 5px;
+                border: none;
+                border-radius: 7px;
+                margin-top: 15px;
+                font-size: 15px;
+            }
+            input{
+                padding: 5px 51px 8px 5px;
+                border: none;
+                border-radius: 7px;
+                margin-top: 15px;
+            }
+        </style>
+    </head>
+    <body>
+         <form id="myForm">
+            <input id="users-Input" type="text" placeholder="Type Your lists...">
+            <button>
+                Create
+            </button>
+        </form>
+        <h2>
+            Added Lists :
+        </h2>
+        <ul id="mylist">
+           
+        </ul>
+        <script src="ind.js"></script>
+    </body>
+</html>
